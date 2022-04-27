@@ -1,0 +1,334 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	width: 100%;
+	background: black;
+	display: flex;
+}
+.header_logo {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
+nav {
+	margin-top: 56px;
+	margin-left: 29%;
+}
+.topnav a{
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold ;
+}
+.topnav a:hover {
+	border-bottom: 3px solid #fcac45;
+}
+.topnav .icon {
+	display: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main_welcome{
+	background: #000;
+	text-align: center;
+	padding: 200px 0 410px 0;
+}
+main .main_welcome p{
+	color: #999999;
+	font-size: 20px;
+}
+main .main_welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+.mycompany{
+	color: #fcac45;
+	font-size: 44px;
+}
+.wrapper {
+	width: 76%;
+	margin: 0 auto;
+}
+main .main_about{
+	display: flex;
+	padding: 100px 0 100px 140px;
+}
+.about_right {
+	margin-left: 175px;
+}
+.about_right h1{
+	display: inline-block;
+	border-bottom: 3px solid #fcac45;
+	padding-bottom: 20px;
+}
+.about_right p{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: #5a5a5a;
+}
+.about_right li {
+	font-size: 16px;
+	font-style: italic;
+	color: #5a5a5a;	
+}
+h1 {
+	font-size: 34px;
+	font-weight: 400;
+}
+.about_us {
+	font-weight: bold;
+}
+.about_right li .one  {
+	font-size: 18px;
+	font-style: normal;
+	color: #5a5a5a;
+}
+.about_right li {
+	background: url(img/check.png) 0px no-repeat;
+	padding-left: 25px;
+	line-height: 35px;
+}
+
+.wrapper_two {
+	width: 100%;
+	text-align: center;
+	
+}
+.our_team {
+	color: white;
+	font-size: 40px;
+	padding-top: 101px;
+
+}
+.main_team {
+	background: #000;
+}
+.line_team {
+	width: 100px;
+	
+	border-color: #fcac45;
+	height:3px ;
+	background:#fcac45 ;
+	margin: 30px auto 0 ;
+}
+.team_card {
+	width: 100%;
+	text-align: center;
+	color: white;
+
+}
+.team_cards {
+	display: flex;
+	width: 76%;
+	margin: 100px auto 166px;
+}
+.team_name {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.team_profession {
+	margin-top: 11px;
+	font-size: 16px;
+}
+.about_profession {
+	margin: 35px 0 10px 0 ;
+	font-size: 14px;
+}
+
+.MAIN_WORK {
+	background: white;
+}
+.our_work {
+	font-size: 40px;
+	margin-top: 101px;
+}
+.wrapper_three {
+	width: 100%;
+	text-align: center;
+
+}
+.about_work {
+	width: 70%;
+	align: center;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.line_work {
+	height: 4px;
+	width: 98px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-color: #fcac45;
+	background:#fcac45 ;
+
+}
+.line1_work {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 175px;
+
+	
+}
+.line2_work {
+	display: flex;
+	justify-content: center;
+	
+	flex-wrap: wrap;
+}
+
+.line3_work {
+	display: flex;
+	justify-content: center;
+	
+	flex-wrap: wrap;
+}
+.line1_item , .line2_item, .line3_item {
+	
+	margin: 0 0 2px 2px ;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@media	screen	and (max-width:1350px ) {
+		main .main_about {
+		flex-direction: column;
+		padding: 100px 0 100px 130px;
+
+	}
+	.about_right {
+		margin-left: 0px
+	}
+}
+
+
+@media	screen	and (max-width:1350px ) {
+	nav {
+		margin-left: 20%;
+	}
+}   
+
+
+@media	screen	and (max-width:1200px ) {
+	nav {
+		margin-left: 19%;
+	}
+}   
+@media	screen	and (max-width:1155px ) {
+	nav {
+		margin-left: 10%;
+	}
+
+	.line1_item {	
+		min-width: 50px;	
+	}
+	main .main_about {
+		flex-direction: column;
+		padding: 100px 0 100px 130px;
+
+	}
+	.mw-100 {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.about_right {
+		margin-left: 0;
+	}
+}	
+@media	screen	and (max-width:1020px ) {
+	nav {
+		margin-left: 9%;
+	}
+	
+}   
+@media	screen	and (max-width:1010px ) {
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		font-size: 25px;
+	}
+	nav{
+		width: 100%
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	header .topnav.responsive{
+		height: 340px
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	
+	main .main_welcome {
+		padding: 50px 0 50px 0; 
+	}
+	main .main_welcome p{
+		font-size: 14px;
+	}
+	main .main_welcome  h1{
+		font-size: 24px;
+	}
+	main .main_welcome .mycompany{
+		font-size: 24px;
+	}
+	
+	.team_cards {
+		flex-direction: column;
+	}
+	
+}
+@media	screen	and (max-width:980px ) {
+	.main_about {
+		padding-left: 20px;
+	}
+	main .main_about {
+		padding: 100px 0 100px 30px;
+	}
+}   
+
+
+
+
