@@ -7,4 +7,3 @@ menu.onclick = function myfunction() {
 		x.className = "topnav";
 	}
 }
-console.log("Hello, world!")

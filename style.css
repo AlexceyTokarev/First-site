@@ -65,12 +65,12 @@ main .main_welcome h1{
 	font-size: 44px;
 }
 .wrapper {
-	width: 76%;
-	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 }
 main .main_about{
 	display: flex;
-	padding: 100px 0 100px 140px;
+	padding: 100px 0 100px 0px;
 }
 .about_right {
 	margin-left: 175px;
@@ -222,7 +222,7 @@ h1 {
 @media	screen	and (max-width:1350px ) {
 		main .main_about {
 		flex-direction: column;
-		padding: 100px 0 100px 130px;
+		padding: 100px 0 100px 0px;
 
 	}
 	.about_right {
@@ -253,11 +253,14 @@ h1 {
 	}
 	main .main_about {
 		flex-direction: column;
-		padding: 100px 0 100px 130px;
+		padding: 100px 0 100px 0px;
 
 	}
+	.about_left {
+		width: 100%;
+	}
 	.mw-100 {
-		max-width: 450px;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 	.about_right {
@@ -325,7 +328,7 @@ h1 {
 		padding-left: 20px;
 	}
 	main .main_about {
-		padding: 100px 0 100px 30px;
+		padding: 100px 0 100px 0px;
 	}
 }   
 
